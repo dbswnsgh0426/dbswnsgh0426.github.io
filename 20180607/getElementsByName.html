@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="sample.css"/><script src="sample.js"></script>
 <script>
 function fnGetElementsById(){
-var accessTag=document.getElementByName("input_name1")[0];
+var accessTag=document.getElementsByName("input_name1")[0];
 console.log(accessTag.tagName);
 accessTag.setAttribute("value", "getElementsByName실행!");
 }
