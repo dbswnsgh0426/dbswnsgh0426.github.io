@@ -21,9 +21,8 @@ figcaption{
 figure:hover > figcaption{ opacity:.8;}
 
 
-	div{
-		overflow:hidden;
-		height:auto;
+	section{
+		overflow:-webkit-paged-y;
 	}
 
 @media only screen and (min-width: 0px) {        /* mobile */
