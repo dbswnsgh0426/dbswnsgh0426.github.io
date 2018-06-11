@@ -20,7 +20,7 @@ figcaption{
 }
 figure:hover > figcaption{ opacity:.8;}
 
-sect {
+sect{
   height:300px;
   width:725px;
   float:left;
